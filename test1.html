@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Journey</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        #story {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 2em;
+        }
+
+        .media-container {
+            margin: 1em;
+            max-width: 400px; /* Limit container width for better responsiveness */
+        }
+
+        .media-container img {
+            max-width: 100%; /* Make images responsive within their containers */
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Minions‘s Journey</h1>
+    </header>
+
+    <section id="story">
+        <!-- Introduction Section -->
+        <div class="media-container">
+            <p>Welcome to the Minions's journey to China and the United States, and today he's going to represent me！</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="media-container">
+            <img src="a.jpg" alt="Nature Image 1">
+        </div>
+
+        <!-- Audio Section -->
+        <div class="media-container">
+            <audio controls>
+                <source src="mp3.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Interactive Sketch Section -->
+        <div class="media-container">
+            <canvas id="natureSketch" width="200" height="200"></canvas>
+        </div>
+
+        <!-- Image Section -->
+        <div class="media-container">
+            <img src="b.jpg" alt="Nature Image 2">
+        </div>
+
+        <!-- Closing Section -->
+        <div class="media-container">
+            <p>Besides the familiar Times Square, this is the most historically representative place in China. The palace museum</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Your Name</p>
+    </footer>
+
+<!--    <script>-->
+<!--        // Interactive Sketch Script-->
+<!--        const canvas = document.getElementById('natureSketch');-->
+<!--        const ctx = canvas.getContext('2d');-->
+
+<!--        // Draw a more complex scene, for example, a landscape with a sun and mountains-->
+<!--        ctx.fillStyle = "#87CEEB"; // Sky Blue color-->
+<!--        ctx.fillRect(0, 0, canvas.width, canvas.height);-->
+
+<!--        // Sun-->
+<!--        ctx.fillStyle = "#FFD700"; // Yellow color-->
+<!--        ctx.beginPath();-->
+<!--        ctx.arc(100, 80, 40, 0, Math.PI * 2);-->
+<!--        ctx.fill();-->
+
+<!--        // Mountains-->
+<!--        ctx.fillStyle = "#A9A9A9"; // Dark Gray color-->
+<!--        ctx.beginPath();-->
+<!--        ctx.moveTo(50, 150);-->
+<!--        ctx.lineTo(150, 50);-->
+<!--        ctx.lineTo(250, 150);-->
+<!--        ctx.closePath();-->
+<!--        ctx.fill();-->
+<!--    </script>-->
+</body>
+</html>
